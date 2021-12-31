@@ -12,7 +12,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Random r = new Random();
-        File carpeta = new File("C:\\Users\\Alejandro Gamaza\\Desktop\\Games");
+        File carpeta = new File([Ruta deseada para buscar]);
         String[] carpetas = carpeta.list();
         for(int i = 0; i<carpetas.length; i++){
             System.out.println(carpetas[i]);
